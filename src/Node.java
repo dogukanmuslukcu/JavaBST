@@ -2,7 +2,6 @@
      int key;
      Node leftChild;
      Node rightChild;
-
      Node(int key , Node leftChild, Node rightChild)
     {
         this.key =key;

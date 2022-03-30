@@ -2,6 +2,7 @@ public class Tree {
     private Node root;  // ağacın kök elemanının erişim bilgisi// yapıcı işlev, kökü olmayan boş bir ağaç tanımlar
     public Tree() {
         root=null;
+
     }
     // insert işlevi, key değerine sahip elemanı ağaca ekler
     public void insert(int key) {
