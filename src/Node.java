@@ -1,11 +1,14 @@
- class Node {
-     int key;
+class Node
+{
+     int data;
      Node leftChild;
      Node rightChild;
-     Node(int key , Node leftChild, Node rightChild)
+    Node(int data,Node rightChild,Node leftChild)
     {
-        this.key =key;
-        this.leftChild=leftChild;
-        this.rightChild=rightChild;
+        this.data = data;
+        this.leftChild = leftChild;
+        this.rightChild = rightChild;
+
     }
+
 }
